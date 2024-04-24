@@ -20,3 +20,6 @@ sudo make install
 -lcs50
 clang -o agree0 agree0.c -lcs50
 ````
+
+
+ brew install libcsv
