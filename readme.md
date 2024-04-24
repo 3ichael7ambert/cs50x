@@ -18,4 +18,5 @@ sudo make install
 
 ```bash
 -lcs50
+clang -o agree0 agree0.c -lcs50
 ````
