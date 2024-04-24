@@ -6,11 +6,16 @@
 ## Week 1 - C Language
 
 ### Installation
-1. Terminal
+#### Mac
+
+1. Download https://github.com/cs50/libcs50/releases
 2. 
 ```bash
-sudo mkdir -p /usr/local/include/
-clang -E -P -x c /dev/null | grep -v '^#' > /usr/local/include/stddef.h
-curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash
-sudo apt-get install libcs50
+sudo make install
 ```
+
+### Usage
+
+```bash
+-lcs50
+````
