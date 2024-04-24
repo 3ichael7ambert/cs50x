@@ -19,7 +19,13 @@ sudo make install
 ```bash
 -lcs50
 clang -o agree0 agree0.c -lcs50
+clang -o calculator calculator0.c -L/Users/3ichael7ambert/Library/CloudStorage/GoogleDrive-mlambertbusiness@gmail.com/My\ Drive/Springboard -lcs50
+
+
+
 ````
+We need the directory to there `libcs50-11.0.2.dylib` is
+
 
 
  brew install libcsv
