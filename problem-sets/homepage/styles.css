@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h1 {
+    color: #477bff;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+button, input[type="submit"] {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
+
+input[type="text"], input[type="email"], textarea {
+    line-height: 1.8;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#formResult {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,9 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+Based on the provided dataset, the listener's audio aura could be characterized by looking at the average energy, valence, and danceability of their top 100 songs. High values in these attributes might indicate an upbeat and happy aura, while lower values could indicate a more relaxed or melancholic aura.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+The current method of calculating the audio aura uses simple averages of danceability, energy, and valence. However, this might not capture the full range of the listener's preferences and moods, as it doesn't account for the diversity and variance within these songs. Some songs with extremely high or low values could skew the average, giving a distorted view of the overall mood.
+
+A better way to calculate the aura could involve clustering songs into different mood categories and calculating the aura based on the most frequently occurring clusters. Additionally, considering the temporal aspect of when songs were played (e.g., seasonal listening patterns) and incorporating more nuanced metrics like lyrical sentiment analysis could provide a more accurate and comprehensive characterization of the listener's audio aura.
